@@ -105,7 +105,7 @@ New columns were created to convert numerical values into clear categories by us
 [@[Exercise_Frequency_Per_Week]]<=6,"5-6 days",
 TRUE,"7 days")
 
-3.	**Daily-step groups**
+2.	**Daily-step groups**
 •	Under 5,000
 •	5,000–7,000
 •	7,000–9,000
@@ -117,7 +117,7 @@ TRUE,"7 days")
 [@[Daily_Steps]]<=9000,"7,001-9,000",
 TRUE,"Over 9,000")
 
-5.	**Sleep-quality groups**
+3.	**Sleep-quality groups**
 •	Low
 •	Below Average
 •	Good
@@ -129,7 +129,7 @@ TRUE,"Over 9,000")
 [@[Sleep_Quality_Score]]<8,"Good",
 TRUE,"Excellent")
 
-7.	**Stress groups**
+4.	**Stress groups**
 •	Low
 •	Medium
 •	High
@@ -139,7 +139,7 @@ TRUE,"Excellent")
 [@[Stress_Level]]<=7,"Medium",
 TRUE,"High")
 
-9.	**Sleep-duration groups**
+5.	**Sleep-duration groups**
 •	Under 5 hours
 •	5–6.9 hours
 •	7–9 hours
@@ -157,19 +157,28 @@ TRUE,"Over 9 hours")
 PivotTables were used to calculate and compare average health scores across the different lifestyle groups.
 
 The analysis compared:
+
 •	Average health score by exercise frequency
+
 •	Average health score by sleep duration
+
 •	Average health score by sleep quality
+
 •	Average health score by stress level
+
 •	Average health score by daily-step group
 
 
 ### 4. Data Visualisation
    
 The results were presented using:
+
 •	Bar and column charts for category comparisons
+
 •	Line charts for ordered lifestyle groups
+
 •	A conditional-formatting heatmap
+
 The heatmap was used to compare the combined relationship between exercise frequency, stress level and average health score.
 
 
@@ -178,31 +187,37 @@ The heatmap was used to compare the combined relationship between exercise frequ
 •	**Daily steps and health score**
 
 Higher daily-step groups recorded progressively higher average health scores.
+
 Participants completing fewer than 5,000 daily steps recorded an average health score of approximately 64.5, compared with approximately 80.3 among participants completing more than 9,000 daily steps.
 
 •	**Exercise frequency and health score**
 
 Average health scores increased consistently as weekly exercise frequency increased.
+
 Participants who did not exercise recorded an average health score of approximately 61.9, while participants exercising seven days per week recorded an average score of approximately 86.3.
 
 •	**Sleep quality and sleep score**
 
 Average health scores increased as sleep quality improved.
+
 Participants in the low sleep quality group recorded an average health score of approximately 64.2, compared with approximately 83.7 for participants in the excellent sleep quality group.
 
 •	**Stress level and health score**
 
 Average health scores decreased as stress levels increased.
+
 The low-stress group recorded an average health score of approximately 79.3, compared with approximately 64.6 for the high-stress group.
 
 •	**Sleep quantity and sleep score**
 
 Average health scores increased as sleep duration increased.
+
 Participants who slept under five hours recorded an average health score of approximately 71.8, compared with approximately 76.7 for participants who slept more than nine hours.
 
 •	**Combined exercise and stress comparison**
 
 The heatmap shows that participants with frequent exercise and low stress recorded the highest average health scores.
+
 Participants exercising seven days per week with low stress recorded an average health score of approximately 91.7, while participants reporting no exercise and high stress recorded an average score of approximately 53.0.
 
 
@@ -218,17 +233,21 @@ Participants exercising seven days per week with low stress recorded an average 
 ## Limitations
 
 •	The dataset is synthetic and may not accurately represent a real population.
+
 •	The findings describe associations within the dataset and do not prove that one lifestyle factor causes a change in health.
+
 •	The analytical groups were created for this project and were not provided as official clinical categories.
 
 
 ## Conclusion
 
 This project demonstrates my ability to prepare data, validate records, create calculated categories, use PivotTables, compare groups and communicate findings through an Excel dashboard.
+
 It also strengthened my understanding of how analytical questions can be translated into structured Excel analysis and clear visual insights.
 
 
 **Sammy Rana**
+
 Aspiring Data Analyst developing practical skills in Excel, SQL and data visualisation.
 
 
