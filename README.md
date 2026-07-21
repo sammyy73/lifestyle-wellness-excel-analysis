@@ -27,19 +27,20 @@ The purpose of this analysis is to identify lifestyle factors associated with hi
 
 ### Dataset
 •	Source: https://www.kaggle.com/datasets/nalisha/early-wakeup-health-and-lifestyle-dataset/data
+
 •	Primary tool: Microsoft Excel
 
 The analysis is focused on the following columns:
 
-**Person_ID
-Age
-Gender
-Sleep_Duration_Hours
-Sleep_Quality_Score
-Exercise_Frequency_Per_Week
-Daily_Steps
-Stress_Level
-Health_Score**
+-Person_ID
+-Age
+-Gender
+-Sleep_Duration_Hours
+-Sleep_Quality_Score
+-Exercise_Frequency_Per_Week
+-Daily_Steps
+-Stress_Level
+-Health_Score
 
 
 ### Excel Skills Used:
@@ -167,7 +168,7 @@ The results were presented using:
 The heatmap was used to compare the combined relationship between exercise frequency, stress level and average health score.
 
 
-### Key Insights
+## Key Insights
 
 •	**Daily steps and health score**
 
@@ -222,7 +223,7 @@ This project demonstrates my ability to prepare data, validate records, create c
 It also strengthened my understanding of how analytical questions can be translated into structured Excel analysis and clear visual insights.
 
 
-### Sammy Rana
+**Sammy Rana**
 Aspiring Data Analyst developing practical skills in Excel, SQL and data visualisation.
 
 
