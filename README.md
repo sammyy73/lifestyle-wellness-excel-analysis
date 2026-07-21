@@ -182,6 +182,11 @@ The results were presented using:
 The heatmap was used to compare the combined relationship between exercise frequency, stress level and average health score.
 
 
+## Dashboard Preview
+
+![Lifestyle and Wellness Dashboard](wellness_analysis_dashboard.png)
+
+
 ## Key Insights
 
 •	**Daily steps and health score**
