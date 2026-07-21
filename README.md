@@ -32,15 +32,15 @@ The purpose of this analysis is to identify lifestyle factors associated with hi
 
 The analysis is focused on the following columns:
 
--Person_ID
--Age
--Gender
--Sleep_Duration_Hours
--Sleep_Quality_Score
--Exercise_Frequency_Per_Week
--Daily_Steps
--Stress_Level
--Health_Score
+* Person_ID
+* Age
+* Gender
+* Sleep_Duration_Hours
+* Sleep_Quality_Score
+* Exercise_Frequency_Per_Week
+* Daily_Steps
+* Stress_Level
+* Health_Score
 
 
 ### Excel Skills Used:
