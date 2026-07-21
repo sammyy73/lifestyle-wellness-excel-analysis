@@ -139,7 +139,7 @@ TRUE,"Excellent")
 [@[Stress_Level]]<=7,"Medium",
 TRUE,"High")
 
-5.	**Sleep-duration groups**
+5.	**Sleep-quantity groups**
 •	Under 5 hours
 •	5–6.9 hours
 •	7–9 hours
