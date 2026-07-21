@@ -97,6 +97,7 @@ New columns were created to convert numerical values into clear categories by us
 •	3–4 days
 •	5–6 days
 •	7 days
+
 =IFS(
 [@[Exercise_Frequency_Per_Week]]=0,"0 days",
 [@[Exercise_Frequency_Per_Week]]<=2,"1-2 days",
@@ -104,42 +105,46 @@ New columns were created to convert numerical values into clear categories by us
 [@[Exercise_Frequency_Per_Week]]<=6,"5-6 days",
 TRUE,"7 days")
 
-2.	**Daily-step groups**
+3.	**Daily-step groups**
 •	Under 5,000
 •	5,000–7,000
 •	7,000–9,000
 •	Over 9,000
+
 =IFS(
 [@[Daily_Steps]]<5000,"Under 5,000",
 [@[Daily_Steps]]<=7000,"5,000-7,000",
 [@[Daily_Steps]]<=9000,"7,001-9,000",
 TRUE,"Over 9,000")
 
-3.	**Sleep-quality groups**
+5.	**Sleep-quality groups**
 •	Low
 •	Below Average
 •	Good
 •	Excellent
+
 =IFS(
 [@[Sleep_Quality_Score]]<4,"Low",
 [@[Sleep_Quality_Score]]<6,"Below Average",
 [@[Sleep_Quality_Score]]<8,"Good",
 TRUE,"Excellent")
 
-4.	**Stress groups**
+7.	**Stress groups**
 •	Low
 •	Medium
 •	High
+
 =IFS(
 [@[Stress_Level]]<4,"Low",
 [@[Stress_Level]]<=7,"Medium",
 TRUE,"High")
 
-5.	**Sleep-duration groups**
+9.	**Sleep-duration groups**
 •	Under 5 hours
 •	5–6.9 hours
 •	7–9 hours
 •	Over 9 hours
+
 =IFS(
 [@[Sleep_Duration_Hours]]<5,"Under 5 hours",
 [@[Sleep_Duration_Hours]]<7,"5-6.9 hours",
